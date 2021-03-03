@@ -1,0 +1,30 @@
+.top-nav-div {
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle-tab {    
+    background-color: black;
+    width: 20px;
+    margin: 0px 5px;
+}
+
+#tab-1 {
+    height: 100px;
+}
+
+#tab-2 {
+    height: 80px;
+}
+
+#tab-3 {
+    height: 120px;
+}
+
+#tab-4 {
+    height: 60px;
+}
+
+#tab-5 {
+    height: 140px;
+}
