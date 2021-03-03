@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.center-content-div {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 15vh;
+  font-family: "Abril Fatface", cursive;
+  writing-mode: vertical-lr;
+  line-height: 0.82;
+}
+
+.first-name {
+  transform: rotate(180deg) translateY(-23.03%);
+}
+
+.last-name {
+  transform: translateY(-23.03%);
+}
