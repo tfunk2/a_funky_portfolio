@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .center-content-div {
-  height: 50%;
+  height: 54%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,9 +10,15 @@
 h1 {
   margin: 0px;
   font-size: 15vh;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", Georgia, 'Times New Roman', Times, serif;
   writing-mode: vertical-lr;
   line-height: 0.82;
+  animation: shrink 300ms 1 forwards;
+}
+
+h1:hover {
+    cursor: default;
+    animation: enlarge 300ms 1 forwards;
 }
 
 .first-name {
@@ -22,3 +28,22 @@ h1 {
 .last-name {
   transform: translateY(-23.03%);
 }
+
+@keyframes enlarge {
+    0%{
+        font-size: 16vh;
+    }
+    100%{
+        font-size: 17.5vh;
+    }
+}
+
+@keyframes shrink {
+    0%{
+        font-size: 17.5vh;
+    }
+    100%{
+        font-size: 16vh;
+    }
+}
+

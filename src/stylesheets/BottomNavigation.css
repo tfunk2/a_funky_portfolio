@@ -1,0 +1,163 @@
+.bottom-nav-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 23%;
+}
+
+.bottom-rectangle-tab {
+  background-color: black;
+  width: 20px;
+  margin: 0px 5px;
+  border-radius: 10px 10px 0px 0px;
+  /* box-sizing: content-box; */
+  /* border-top: black 50px solid; */
+}
+
+#tab-6 {
+  height: 70%;
+  animation: colorChangeBack6 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-6:hover {
+  animation: hoverColorChange6 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#tab-7 {
+  height: 60%;
+  animation: colorChangeBack7 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-7:hover {
+  animation: hoverColorChange7 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#tab-8 {
+  height: 80%;
+  animation: colorChangeBack8 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-8:hover {
+  animation: hoverColorChange8 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#tab-9 {
+  height: 50%;
+  animation: colorChangeBack9 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-9:hover {
+  animation: hoverColorChange9 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#tab-10 {
+  height: 100%;
+  animation: colorChangeBack10 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-10:hover {
+  animation: hoverColorChange10 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes contract {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hoverColorChange6 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #048ba8;
+  }
+}
+@keyframes colorChangeBack6 {
+  from {
+    background-color: #048ba8;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange7 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #a4036f;
+  }
+}
+@keyframes colorChangeBack7 {
+  from {
+    background-color: #a4036f;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange8 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #16db93;
+  }
+}
+@keyframes colorChangeBack8 {
+  from {
+    background-color: #16db93;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange9 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #fe5f55;
+  }
+}
+@keyframes colorChangeBack9 {
+  from {
+    background-color: #fe5f55;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange10 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #fbb13c;
+  }
+}
+@keyframes colorChangeBack10 {
+  from {
+    background-color: #fbb13c;
+  }
+  to {
+    background-color: black;
+  }
+}
