@@ -1,77 +1,162 @@
 .top-nav-div {
-    display: flex;
-    justify-content: center;
-    height: 25%;
+  display: flex;
+  justify-content: center;
+  height: 23%;
 }
 
-.rectangle-tab {    
-    background-color: black;
-    width: 20px;
-    margin: 0px 5px;
-    border-radius: 0px 0px 10px 10px;
-    box-sizing: content-box;
-    /* border-top: black 50px solid; */
-}
-
-.rectangle-tab:hover {
-    animation-name: expand;
-    animation-duration: 300ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+.rectangle-tab {
+  background-color: black;
+  width: 20px;
+  margin: 0px 5px;
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: content-box;
+  /* border-top: black 50px solid; */
 }
 
 #tab-1 {
-    height: 70%;
+  height: 100%;
+  animation: colorChangeBack1 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-1:hover {
+  animation: hoverColorChange1 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
 #tab-2 {
-    height: 60%;
+  height: 50%;
+  animation: colorChangeBack2 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-2:hover {
+  animation: hoverColorChange2 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
 #tab-3 {
-    height: 80%;
+  height: 80%;
+  animation: colorChangeBack3 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-3:hover {
+  animation: hoverColorChange3 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
 #tab-4 {
-    height: 50%;
+  height: 60%;
+  animation: colorChangeBack4 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-4:hover {
+  animation: hoverColorChange4 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
 #tab-5 {
-    height: 90%;
+  height: 70%;
+  animation: colorChangeBack5 300ms 1 forwards, contract 300ms 1 forwards;
+}
+
+#tab-5:hover {
+  animation: hoverColorChange5 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
 @keyframes expand {
-    0%{
-        transform: scale(1.0);
-    }
-    10%{
-        transform: scale(1.05);
-    }
-    20%{
-        transform: scale(1.1);
-    }
-    30%{
-        transform: scale(1.15);
-    }
-    40%{
-        transform: scale(1.2);
-    }
-    50%{
-        transform: scale(1.25);
-    }
-    60%{
-        transform: scale(1.3);
-    }
-    70%{
-        transform: scale(1.35);
-    }
-    80%{
-        transform: scale(1.4);
-    }
-    90%{
-        transform: scale(1.45);
-    }
-    100%{
-        transform: scale(1.5);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes contract {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hoverColorChange1 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #995d81;
+  }
+}
+@keyframes colorChangeBack1 {
+  from {
+    background-color: #995d81;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange2 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #eb8258;
+  }
+}
+@keyframes colorChangeBack2 {
+  from {
+    background-color: #eb8258;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange3 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #f6f740;
+  }
+}
+@keyframes colorChangeBack3 {
+  from {
+    background-color: #f6f740;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange4 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #1b998b;
+  }
+}
+@keyframes colorChangeBack4 {
+  from {
+    background-color: #1b998b;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes hoverColorChange5 {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #35a7ff;
+  }
+}
+@keyframes colorChangeBack5 {
+  from {
+    background-color: #35a7ff;
+  }
+  to {
+    background-color: black;
+  }
 }
