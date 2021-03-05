@@ -19,11 +19,24 @@ function App() {
         return resume;
       case "LinkedIn":
         return linkedIn;
+      case "Nalarama":
+        return nalarama;
+      case "Crossword":
+        return crossword;
+      case "GitHub":
+        return github;
+      case "About Me":
+        return aboutMe;
+      case "In Progress":
+        return inProgress;
       default:
+        return home;
         break;
     }
   };
 
+
+  // Turn each of these into their own components, then import and return above
   const katesKitchen = (
     <section>
       <h2>The Real Kate's Kitchen</h2>
@@ -59,11 +72,52 @@ function App() {
     </section>
   );
 
+  const nalarama = (
+    <section>
+      <h2>Nalarama</h2>
+      <p>A blurb paragraph about Nalarama here</p>
+    </section>
+  );
+
+  const crossword = (
+    <section>
+      <h2>A Funky Crossword</h2>
+      <p>A blurb paragraph about the Funky Crossword here</p>
+    </section>
+  );
+
+  const github = (
+    <section>
+      <h2>GitHub</h2>
+      <p>A blurb paragraph about my GitHub here</p>
+    </section>
+  );
+
+  const aboutMe = (
+    <section>
+      <h2>About Me</h2>
+      <p>A blurb paragraph about me here</p>
+    </section>
+  );
+
+  const inProgress = (
+    <section>
+      <h2>In Progress</h2>
+      <p>A look at my projects in progress here</p>
+    </section>
+  );
+
+
+
+  const handleClick = (tabClicked) => {
+    setActiveTab(tabClicked)
+  }
+
   return (
     <div className="App">
-      <TopNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
-      <CenterContent tabSwitch={tabSwitch}/>
-      <BottomNavigation />
+      <TopNavigation activeTab={activeTab} handleClick={handleClick} />
+      <CenterContent tabSwitch={tabSwitch} />
+      <BottomNavigation activeTab={activeTab} handleClick={handleClick} />
     </div>
   );
 }

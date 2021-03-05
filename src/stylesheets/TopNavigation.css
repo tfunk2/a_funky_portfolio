@@ -7,11 +7,14 @@
 .top-tab-name {
     font-size: 12px;
     writing-mode: vertical-lr;
-    /* transform: rotate(180deg) translateY(10px); */
     font-family: "Abril Fatface", Georgia, 'Times New Roman', Times, serif;
     /* line-height: 50%; */
-    padding-bottom: 5px;
+    padding-bottom: 7px;
     padding-left: 3px;
+}
+
+#active-tab {
+  height: inherit;
 }
 
 .rectangle-tab {
