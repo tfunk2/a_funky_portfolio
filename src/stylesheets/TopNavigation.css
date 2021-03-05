@@ -27,6 +27,10 @@
   color: rgba(0, 0, 0, 0);
 }
 
+.rectangle-tab:hover {
+  cursor: pointer;
+}
+
 #tab-1 {
   height: 100%;
   animation: colorChangeBack1 300ms 1 forwards, contract 300ms 1 forwards;
