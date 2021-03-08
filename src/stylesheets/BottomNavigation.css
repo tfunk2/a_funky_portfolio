@@ -85,6 +85,10 @@
   animation: hoverColorChange10 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
+.active-tab {
+  color: white;
+}
+
 @keyframes hoverColorChange6 {
   from {
     background-color: black;

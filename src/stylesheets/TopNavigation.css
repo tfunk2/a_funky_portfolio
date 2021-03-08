@@ -85,7 +85,6 @@
 }
 
 .active-tab {
-  animation: hoverColorChange5 300ms 1 forwards, expand 300ms 1 forwards;
   color: white;
 }
 

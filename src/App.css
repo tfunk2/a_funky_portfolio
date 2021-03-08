@@ -32,25 +32,37 @@ html {
   position: relative;
   border-radius: 8px;
   padding-right: 12px;
+  cursor: default;
+  margin-top: 10px;
 }
 
 .faded-scroll {
   height: 40px;
   width: 50%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   position: fixed;
   border-radius: 8px 8px 0px 0px;
+  pointer-events: none;
 }
 
 .faded-scroll-bottom {
   height: 40px;
   width: 50%;
-  background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
   position: absolute;
   bottom: 12%;
   left: 25%;
   right: 25%;
   border-radius: 0px 0px 8px 8px;
+  pointer-events: none;
 }
 
 @keyframes expand {
