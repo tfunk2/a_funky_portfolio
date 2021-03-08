@@ -3,6 +3,19 @@
   justify-content: center;
   align-items: flex-end;
   height: 23%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.bottom-tab-name {
+  font-size: 12px;
+  writing-mode: vertical-lr;
+  font-family: "Abril Fatface", Georgia, 'Times New Roman', Times, serif;
+  transform: rotate(180deg);
+  padding-bottom: 7px;
+  padding-left: 3px;
 }
 
 .bottom-rectangle-tab {
@@ -10,8 +23,16 @@
   width: 20px;
   margin: 0px 5px;
   border-radius: 10px 10px 0px 0px;
-  /* box-sizing: content-box; */
+  box-sizing: content-box;
   /* border-top: black 50px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgba(0, 0, 0, 0);
+}
+
+.bottom-rectangle-tab:hover {
+  cursor: pointer;
 }
 
 #tab-6 {
@@ -20,6 +41,7 @@
 }
 
 #tab-6:hover {
+  color: white;
   animation: hoverColorChange6 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
@@ -29,6 +51,7 @@
 }
 
 #tab-7:hover {
+  color: white;
   animation: hoverColorChange7 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
@@ -38,6 +61,7 @@
 }
 
 #tab-8:hover {
+  color: black;
   animation: hoverColorChange8 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
@@ -47,6 +71,7 @@
 }
 
 #tab-9:hover {
+  color: white;
   animation: hoverColorChange9 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
@@ -56,25 +81,12 @@
 }
 
 #tab-10:hover {
+  color: white;
   animation: hoverColorChange10 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
-@keyframes expand {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}
-
-@keyframes contract {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+.active-tab {
+  color: white;
 }
 
 @keyframes hoverColorChange6 {

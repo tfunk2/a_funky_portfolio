@@ -1,5 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+html {
+  overflow-y: hidden;
+  overscroll-behavior-y: none;
+}
+
 .App {
   height: 100vh;
   width: 100vw;
-  overflow: visible;
+  /* overflow: visible; */
+}
+
+.center-section {
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-title {
+  align-self: flex-start;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.center-body {
+  overflow-y: scroll;
+  height: 100%;
+  position: relative;
+  border-radius: 8px;
+  padding-right: 12px;
+  cursor: default;
+  margin-top: 10px;
+}
+
+.faded-scroll {
+  height: 40px;
+  width: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: fixed;
+  border-radius: 8px 8px 0px 0px;
+  pointer-events: none;
+}
+
+.faded-scroll-bottom {
+  height: 40px;
+  width: 50%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  bottom: 12%;
+  left: 25%;
+  right: 25%;
+  border-radius: 0px 0px 8px 8px;
+  pointer-events: none;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes contract {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

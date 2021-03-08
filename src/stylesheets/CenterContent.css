@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-
 .center-content-div {
   height: 54%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 23%;
+  left: 0px;
+  right: 0px;
+  overflow-y: visible;
+  overscroll-behavior-y: auto;
 }
 
 h1 {
@@ -26,7 +30,7 @@ h1:hover {
 }
 
 .last-name {
-  transform: translateY(-23.03%);
+  transform: translateY(-23.05%);
 }
 
 @keyframes enlarge {
