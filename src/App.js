@@ -89,7 +89,7 @@ function App() {
           erat. Ut suscipit nisi a justo tristique, sed sodales lorem efficitur.
         </p>
       </div>
-        <div className="faded-scroll-bottom"></div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -106,8 +106,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about Funky Cafe here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -117,8 +117,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about my resume here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -128,8 +128,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about Funky Cafe here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -139,8 +139,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about Nalarama here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -150,8 +150,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about my Medium blog here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -161,8 +161,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about my GitHub here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -172,8 +172,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A blurb paragraph about me here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
@@ -183,8 +183,8 @@ function App() {
       <div className="center-body">
         <div className="faded-scroll"></div>
         <p>A look at my projects in progress here</p>
-        <div className="faded-scroll-bottom"></div>
       </div>
+      <div className="faded-scroll-bottom"></div>
     </section>
   );
 
