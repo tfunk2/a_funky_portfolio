@@ -12,11 +12,11 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         <span className="bottom-tab-name">Nalarama</span>
       </section>
       <section
-        onClick={() => handleClick("Crossword")}
+        onClick={() => handleClick("Medium")}
         className="bottom-rectangle-tab"
         id="tab-7"
       >
-        <span className="bottom-tab-name">Crossword</span>
+        <span className="bottom-tab-name">Medium</span>
       </section>
       <section
         onClick={() => handleClick("GitHub")}

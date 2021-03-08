@@ -3,6 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 23%;
+  left: 0px;
+  right: 0px;
+  overflow-y: visible;
+  overscroll-behavior-y: auto;
 }
 
 h1 {

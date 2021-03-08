@@ -6,35 +6,35 @@ export default function TopNavigation({ activeTab, handleClick }) {
     <div class="top-nav-div">
       <section
         onClick={() => handleClick("The Real Kate's Kitchen")}
-        className="rectangle-tab"
+        className={activeTab === "The Real Kate's Kitchen" ? "rectangle-tab active-tab" : "rectangle-tab"}
         id="tab-1"
       >
         <span className="top-tab-name">The Real Kate's Kitchen</span>
       </section>
       <section
         onClick={() => handleClick("Home")}
-        className="rectangle-tab"
+        className={activeTab === "Home" ? "rectangle-tab active-tab" : "rectangle-tab"}
         id="tab-2"
       >
         <span className="top-tab-name">Home</span>
       </section>
       <section
         onClick={() => handleClick("Funky Cafe")}
-        className="rectangle-tab"
+        className={activeTab === "Funky Cafe" ? "rectangle-tab active-tab" : "rectangle-tab"}
         id="tab-3"
       >
         <span className="top-tab-name">Funky Cafe</span>
       </section>
       <section
         onClick={() => handleClick("Resume")}
-        className="rectangle-tab"
+        className={activeTab === "Resume" ? "rectangle-tab active-tab" : "rectangle-tab"}
         id="tab-4"
       >
         <span className="top-tab-name">Resume</span>
       </section>
       <section
         onClick={() => handleClick("LinkedIn")}
-        className="rectangle-tab"
+        className={activeTab === "LinkedIn" ? "rectangle-tab active-tab" : "rectangle-tab"}
         id="tab-5"
       >
         <span className="top-tab-name">LinkedIn</span>

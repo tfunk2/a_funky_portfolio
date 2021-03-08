@@ -2,6 +2,10 @@
   display: flex;
   justify-content: center;
   height: 23%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .top-tab-name {
@@ -11,10 +15,6 @@
     /* line-height: 50%; */
     padding-bottom: 7px;
     padding-left: 3px;
-}
-
-#active-tab {
-  height: inherit;
 }
 
 .rectangle-tab {
@@ -80,6 +80,11 @@
 }
 
 #tab-5:hover {
+  animation: hoverColorChange5 300ms 1 forwards, expand 300ms 1 forwards;
+  color: white;
+}
+
+.active-tab {
   animation: hoverColorChange5 300ms 1 forwards, expand 300ms 1 forwards;
   color: white;
 }
