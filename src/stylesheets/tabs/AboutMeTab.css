@@ -1,0 +1,26 @@
+.portfolio-picture {
+    max-width: 200px;
+    margin-top: 20px;
+    border-radius: 80px;
+    align-self: center;
+}
+
+#custom-fade-1 {
+    background: linear-gradient(
+    to bottom,
+    rgba(153, 93, 129, 1) 0%,
+    rgba(153, 93, 255, 0) 100%
+  );
+}
+
+#custom-fade-1-bottom {
+    background: linear-gradient(
+    to top,
+    rgba(153, 93, 129, 1) 0%,
+    rgba(153, 93, 255, 0) 100%
+  );
+}
+
+.about-me-section {
+    color: white;
+}

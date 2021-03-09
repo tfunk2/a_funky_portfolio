@@ -507,7 +507,7 @@ function App() {
   return (
     <div className="App">
       <TopNavigation activeTab={activeTab} handleClick={handleClick} />
-      <CenterContent tabSwitch={tabSwitch} />
+      <CenterContent tabSwitch={tabSwitch} activeTab={activeTab}/>
       <BottomNavigation activeTab={activeTab} handleClick={handleClick} />
     </div>
   );
