@@ -6,7 +6,7 @@ const KatesKitchenTab = () => {
     <section className="center-section kates-kitchen-section">
       <h2 className="center-title">The Real Kate's Kitchen</h2>
       <div className="center-body">
-        <div className="faded-scroll" id="custom-fade-10"></div>
+        <div className="faded-scroll" id="custom-fade-9"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           rutrum, vulputate sapien vel, condimentum est. Vestibulum cursus diam
@@ -54,7 +54,7 @@ const KatesKitchenTab = () => {
           erat. Ut suscipit nisi a justo tristique, sed sodales lorem efficitur.
         </p>
       </div>
-      <div className="faded-scroll-bottom" id="custom-fade-10-bottom"></div>
+      <div className="faded-scroll-bottom" id="custom-fade-9-bottom"></div>
     </section>
   );
 };

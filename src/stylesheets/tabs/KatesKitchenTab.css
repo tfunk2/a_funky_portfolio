@@ -1,4 +1,4 @@
-#custom-fade-10 {
+#custom-fade-9 {
     background: linear-gradient(
     to bottom,
     rgba(254, 95, 85, 1) 0%,
@@ -6,7 +6,7 @@
   );
 }
 
-#custom-fade-10-bottom {
+#custom-fade-9-bottom {
     background: linear-gradient(
     to top,
     rgba(254, 95, 85, 1) 0%,
