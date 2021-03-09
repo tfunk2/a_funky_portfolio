@@ -1,0 +1,19 @@
+#custom-fade-10 {
+    background: linear-gradient(
+    to bottom,
+    rgba(254, 95, 85, 1) 0%,
+    rgba(254, 95, 85, 0) 100%
+  );
+}
+
+#custom-fade-10-bottom {
+    background: linear-gradient(
+    to top,
+    rgba(254, 95, 85, 1) 0%,
+    rgba(254, 95, 85, 0) 100%
+  );
+}
+
+.kates-kitchen-section {
+    color: white;
+}

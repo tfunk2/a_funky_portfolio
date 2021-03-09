@@ -26,6 +26,7 @@ html {
   margin-bottom: 0px;
   margin-top: 0px;
   line-height: 0;
+  z-index: 1;
 }
 
 .center-body {

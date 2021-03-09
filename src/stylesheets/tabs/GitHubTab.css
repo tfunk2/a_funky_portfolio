@@ -1,0 +1,19 @@
+#custom-fade-8 {
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 219, 147, 1) 0%,
+    rgba(22, 219, 147, 0) 100%
+  );
+}
+
+#custom-fade-8-bottom {
+  background: linear-gradient(
+    to top,
+    rgba(22, 219, 147, 1) 0%,
+    rgba(22, 219, 147, 0) 100%
+  );
+}
+
+/* .github-section {
+  color: white;
+} */
