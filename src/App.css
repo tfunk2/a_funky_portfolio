@@ -25,6 +25,7 @@ html {
   align-self: flex-start;
   margin-bottom: 0px;
   margin-top: 0px;
+  line-height: 0;
 }
 
 .center-body {
@@ -35,6 +36,10 @@ html {
   padding-right: 12px;
   cursor: default;
   margin-top: 10px;
+}
+
+.center-p {
+  margin-top: 25px;
 }
 
 .faded-scroll {
