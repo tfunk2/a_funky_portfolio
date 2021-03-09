@@ -12,10 +12,14 @@
 .bottom-tab-name {
   font-size: 12px;
   writing-mode: vertical-lr;
-  font-family: "Abril Fatface", Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Jaldi', sans-serif; */
+  font-weight: 500;
+  font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif;
   transform: rotate(180deg);
   padding-bottom: 7px;
-  padding-left: 3px;
+  /* margin-right: 3px; */
+  padding-left: 1px;
+  letter-spacing: 0.3px;
 }
 
 .bottom-rectangle-tab {
@@ -36,7 +40,7 @@
 }
 
 #tab-6 {
-  height: 70%;
+  height: 50%;
   animation: colorChangeBack6 300ms 1 forwards, contract 300ms 1 forwards;
 }
 
@@ -46,7 +50,7 @@
 }
 
 #tab-7 {
-  height: 60%;
+  height: 70%;
   animation: colorChangeBack7 300ms 1 forwards, contract 300ms 1 forwards;
 }
 
@@ -56,7 +60,7 @@
 }
 
 #tab-8 {
-  height: 80%;
+  height: 60%;
   animation: colorChangeBack8 300ms 1 forwards, contract 300ms 1 forwards;
 }
 
@@ -66,7 +70,7 @@
 }
 
 #tab-9 {
-  height: 50%;
+  height: 100%;
   animation: colorChangeBack9 300ms 1 forwards, contract 300ms 1 forwards;
 }
 
@@ -76,7 +80,7 @@
 }
 
 #tab-10 {
-  height: 100%;
+  height: 80%;
   animation: colorChangeBack10 300ms 1 forwards, contract 300ms 1 forwards;
 }
 

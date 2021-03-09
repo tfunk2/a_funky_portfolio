@@ -9,26 +9,26 @@ function App() {
 
   const tabSwitch = () => {
     switch (activeTab) {
-      case "The Real Kate's Kitchen":
-        return katesKitchen;
-      case "Home":
-        return home;
-      case "Funky Cafe":
-        return funkyCafe;
-      case "Resume":
-        return resume;
-      case "LinkedIn":
-        return linkedIn;
-      case "Nalarama":
-        return nalarama;
-      case "Medium":
-        return medium;
-      case "GitHub":
-        return github;
       case "About Me":
         return aboutMe;
+      case "Home":
+        return home;
+      case "Resume":
+        return resume;
+      case "Medium":
+        return medium;
+      case "LinkedIn":
+        return linkedIn;
+      case "Funky Cafe":
+        return funkyCafe;
+      case "Nalarama":
+        return nalarama;
+      case "GitHub":
+        return github;
       case "In Progress":
         return inProgress;
+      case "The Real Kate's Kitchen":
+        return katesKitchen;
       default:
         return home;
         break;
