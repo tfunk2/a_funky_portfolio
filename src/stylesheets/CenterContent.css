@@ -33,6 +33,52 @@ h1:hover {
   transform: translateY(-23.05%);
 }
 
+.backsplash-shape {
+  width: 90%;
+  height: 80%;
+  /* background-color: red; */
+  position: absolute;
+  left: 0;
+  border-radius: 0px 220px 220px 0px;
+  z-index: -1000;
+}
+
+.about-me {
+  background-color: #995d81;
+}
+
+.resume {
+  background-color: #f6f740;
+}
+
+.medium {
+  background-color: #1b998b;
+}
+
+.linked-in {
+  background-color: #35a7ff;
+}
+
+.nalarama {
+  background-color: #048ba8;
+}
+
+.funky-cafe {
+  background-color: #a4036f;
+}
+
+.github {
+  background-color: #16db93;
+}
+
+.the-real-kates-kitchen {
+  background-color: #fe5f55;
+}
+
+.in-progress {
+  background-color: #fbb13c;
+}
+
 @keyframes enlarge {
     0%{
         font-size: 16vh;

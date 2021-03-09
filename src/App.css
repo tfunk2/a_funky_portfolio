@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
 
 html {
-  overflow-y: hidden;
-  overscroll-behavior-y: none;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 .App {
@@ -25,6 +25,7 @@ html {
   align-self: flex-start;
   margin-bottom: 0px;
   margin-top: 0px;
+  line-height: 0;
 }
 
 .center-body {
@@ -35,16 +36,18 @@ html {
   padding-right: 12px;
   cursor: default;
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-p {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .faded-scroll {
   height: 40px;
   width: 50%;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
   position: fixed;
   border-radius: 8px 8px 0px 0px;
   pointer-events: none;
