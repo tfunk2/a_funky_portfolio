@@ -1,4 +1,5 @@
 import React from "react";
+import resumeThumbnail from '../../images/resume-thumbnail.png';
 import "../../stylesheets/tabs/ResumeTab.css";
 
 const ResumeTab = () => {
@@ -7,6 +8,10 @@ const ResumeTab = () => {
       <h2 className="center-title">My Resume</h2>
       <div className="center-body">
         <div className="faded-scroll" id="custom-fade-3"></div>
+        <a className="resume-anchor" target="_blank" href="https://docs.google.com/document/d/1dzLhAcSr4gdY-tpFzWkL_FVkB2ba-GfEoypfOeEn14A/edit">
+          <img className="resume-thumbnail" src={resumeThumbnail} alt="resume thumbnail"></img>
+          <div className="faded-anchor-bottom"></div>
+        </a>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           rutrum, vulputate sapien vel, condimentum est. Vestibulum cursus diam

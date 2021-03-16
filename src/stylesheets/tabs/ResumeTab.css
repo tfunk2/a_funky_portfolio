@@ -17,3 +17,37 @@
 /* .resume-section {
   color: white;
 } */
+
+.resume-thumbnail {
+  min-width: 100px;
+  width: 100%;
+  /* max-width: 1400px; */
+  margin-top: 30px;
+  border: 4px rgb(202, 202, 202) solid;
+  border-radius: 4px;
+}
+
+.resume-anchor {
+  width: 50%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: inset 2px 2px black; */
+  height: auto;
+  position: relative;
+}
+
+.faded-anchor-bottom {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(202, 202, 202) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  bottom: 4px;
+  pointer-events: none;
+}
