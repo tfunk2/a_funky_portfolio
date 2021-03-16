@@ -6,13 +6,13 @@ const ResumeTab = () => {
   return (
     <section className="center-section resume-section">
       <h2 className="center-title">My Resume</h2>
-      <div className="center-body">
-        <div className="faded-scroll" id="custom-fade-3"></div>
+      <div className="center-body" id="resume-center-body">
+        {/* <div className="faded-scroll" id="custom-fade-3"></div> */}
         <a className="resume-anchor" target="_blank" href="https://docs.google.com/document/d/1dzLhAcSr4gdY-tpFzWkL_FVkB2ba-GfEoypfOeEn14A/edit">
           <img className="resume-thumbnail" src={resumeThumbnail} alt="resume thumbnail"></img>
           <div className="faded-anchor-bottom"></div>
         </a>
-        <p className="center-p">
+        {/* <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           rutrum, vulputate sapien vel, condimentum est. Vestibulum cursus diam
           varius ipsum pretium ullamcorper. Mauris diam lectus, posuere nec
@@ -57,9 +57,9 @@ const ResumeTab = () => {
           varius tincidunt, nibh nulla consequat dui, a sagittis eros risus nec
           sem. Suspendisse sed elit aliquam, lobortis risus sagittis, euismod
           erat. Ut suscipit nisi a justo tristique, sed sodales lorem efficitur.
-        </p>
+        </p> */}
       </div>
-      <div className="faded-scroll-bottom" id="custom-fade-3-bottom"></div>
+      {/* <div className="faded-scroll-bottom" id="custom-fade-3-bottom"></div> */}
     </section>
   );
 };

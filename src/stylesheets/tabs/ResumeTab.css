@@ -19,16 +19,18 @@
 } */
 
 .resume-thumbnail {
-  min-width: 100px;
+  min-width: 200px;
   width: 100%;
   /* max-width: 1400px; */
-  margin-top: 30px;
+  /* margin-top: 30px; */
   border: 4px rgb(202, 202, 202) solid;
   border-radius: 4px;
 }
 
 .resume-anchor {
-  width: 50%;
+  min-width: 200px;
+  width: 55%;
+  height: 100%;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -42,6 +44,7 @@
 .faded-anchor-bottom {
   height: 50px;
   width: 100%;
+  min-width: 200px;
   background: linear-gradient(
     to top,
     rgb(202, 202, 202) 0%,
@@ -50,4 +53,9 @@
   position: absolute;
   bottom: 4px;
   pointer-events: none;
+}
+
+#resume-center-body {
+  justify-content: center;
+  overflow-y: hidden;
 }
