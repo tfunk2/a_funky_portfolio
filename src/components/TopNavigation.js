@@ -8,7 +8,7 @@ export default function TopNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("About Me")}
         className={
           activeTab === "About Me"
-            ? "rectangle-tab active-tab"
+            ? "rectangle-tab active-tab-top"
             : "rectangle-tab"
         }
         id="tab-1"
@@ -18,7 +18,7 @@ export default function TopNavigation({ activeTab, handleClick }) {
       <section
         onClick={() => handleClick("Home")}
         className={
-          activeTab === "Home" ? "rectangle-tab active-tab" : "rectangle-tab"
+          activeTab === "Home" ? "rectangle-tab active-tab-top" : "rectangle-tab"
         }
         id="tab-2"
       >
@@ -27,7 +27,7 @@ export default function TopNavigation({ activeTab, handleClick }) {
       <section
         onClick={() => handleClick("Resume")}
         className={
-          activeTab === "Resume" ? "rectangle-tab active-tab" : "rectangle-tab"
+          activeTab === "Resume" ? "rectangle-tab active-tab-top" : "rectangle-tab"
         }
         id="tab-3"
       >
@@ -37,7 +37,7 @@ export default function TopNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("Medium")}
         className={
           activeTab === "Medium"
-            ? "rectangle-tab active-tab"
+            ? "rectangle-tab active-tab-top"
             : "rectangle-tab"
         }
         id="tab-4"
@@ -48,7 +48,7 @@ export default function TopNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("LinkedIn")}
         className={
           activeTab === "LinkedIn"
-            ? "rectangle-tab active-tab"
+            ? "rectangle-tab active-tab-top"
             : "rectangle-tab"
         }
         id="tab-5"
