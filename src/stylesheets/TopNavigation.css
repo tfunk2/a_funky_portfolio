@@ -95,8 +95,11 @@
   color: white;
 }
 
-.active-tab {
+.active-tab-top {
   color: white;
+  border: 3pt white solid;
+  border-top: none;
+  border-radius: 0px 0px 30px 30px;
 }
 
 @keyframes hoverColorChange1 {

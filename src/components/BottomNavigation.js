@@ -8,7 +8,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("Nalarama")}
         className={
           activeTab === "Nalarama"
-            ? "bottom-rectangle-tab active-tab"
+            ? "bottom-rectangle-tab active-tab-bottom"
             : "bottom-rectangle-tab"
         }
         id="tab-6"
@@ -19,7 +19,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("Funky Cafe")}
         className={
           activeTab === "Funky Cafe"
-            ? "bottom-rectangle-tab active-tab"
+            ? "bottom-rectangle-tab active-tab-bottom"
             : "bottom-rectangle-tab"
         }
         id="tab-7"
@@ -30,7 +30,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("GitHub")}
         className={
           activeTab === "GitHub"
-            ? "bottom-rectangle-tab active-tab"
+            ? "bottom-rectangle-tab active-tab-bottom"
             : "bottom-rectangle-tab"
         }
         id="tab-8"
@@ -41,7 +41,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("The Real Kate's Kitchen")}
         className={
           activeTab === "The Real Kate's Kitchen"
-            ? "bottom-rectangle-tab active-tab"
+            ? "bottom-rectangle-tab active-tab-bottom"
             : "bottom-rectangle-tab"
         }
         id="tab-9"
@@ -52,7 +52,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         onClick={() => handleClick("In Progress")}
         className={
           activeTab === "In Progress"
-            ? "bottom-rectangle-tab active-tab"
+            ? "bottom-rectangle-tab active-tab-bottom"
             : "bottom-rectangle-tab"
         }
         id="tab-10"
