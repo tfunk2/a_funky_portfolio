@@ -53,6 +53,7 @@
 
 .publication-link {
   width: fit-content;
+  height: fit-content;
   padding: 10px;
   display: flex;
   flex-direction: column;

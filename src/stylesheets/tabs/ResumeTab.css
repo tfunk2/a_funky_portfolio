@@ -42,15 +42,12 @@
 .resume-anchor {
   min-width: 200px;
   width: 55%;
-  height: 100%;
   align-self: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   /* box-shadow: inset 2px 2px black; */
   height: auto;
   position: relative;
+  /* justify-self: center; */
 }
 
 .faded-anchor-bottom {
@@ -69,5 +66,13 @@
 
 #resume-center-body {
   justify-content: center;
+  /* align-items: center; */
   overflow-y: hidden;
+}
+
+.resume-title {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+  margin-top: 0px;
 }

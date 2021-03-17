@@ -12,14 +12,14 @@ const MediumTab = () => {
       <div className="center-body">
         <h2 className="center-title">Medium</h2>
         <div className="faded-scroll" id="custom-fade-4"></div>
-        <a className="medium-link" href="https://tyler-j-funk.medium.com/">
+        <a target="_blank" className="medium-link" href="https://tyler-j-funk.medium.com/">
           <img className="medium-logo" src={mediumLogo} alt="medium logo"></img>
           <h4 className="medium-name">@tyler-j-funk</h4>
         </a>
         <h3>Publications I Write For</h3>
         <div className="publications-div">
           {/* JavaScript in Plain English */}
-          <a
+          <a target="_blank"
             className="publication-link"
             href="https://javascript.plainenglish.io/"
           >
@@ -31,7 +31,7 @@ const MediumTab = () => {
             <h5 className="publication-name">JavaScript In Plain English</h5>
           </a>
           {/* Dev Genius */}
-          <a className="publication-link" href="https://medium.com/dev-genius">
+          <a target="_blank" className="publication-link" href="https://medium.com/dev-genius">
             <img
               className="dev-genius-logo"
               src={devGeniusLogo}
@@ -40,7 +40,7 @@ const MediumTab = () => {
             <h5 className="publication-name">Dev Genius</h5>
           </a>
           {/* Level Up Coding by gitconnected */}
-          <a
+          <a target="_blank"
             className="publication-link"
             href="https://levelup.gitconnected.com/"
           >
@@ -54,7 +54,7 @@ const MediumTab = () => {
             </h5>
           </a>
           {/* The Startup */}
-          <a className="publication-link" href="https://medium.com/swlh">
+          <a target="_blank" className="publication-link" href="https://medium.com/swlh">
             <img
               className="the-startup-logo"
               src={theStartupLogo}
