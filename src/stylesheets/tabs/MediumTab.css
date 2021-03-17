@@ -17,4 +17,17 @@
   .medium-section {
     color: white;
   }
+
+  .medium-logo {
+    width: 100px;
+  }
+
+  .medium-name {
+    margin: 0px;
+  }
+
+  .medium-link {
+    margin-top: 30px;
+    width: fit-content;
+  }
   

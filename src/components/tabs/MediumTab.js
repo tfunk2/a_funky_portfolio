@@ -1,5 +1,6 @@
 import React from "react";
 import "../../stylesheets/tabs/MediumTab.css";
+import mediumLogo from "../../images/medium-logo.jpeg";
 
 const MediumTab = () => {
   return (
@@ -7,6 +8,12 @@ const MediumTab = () => {
       <h2 className="center-title">Medium</h2>
       <div className="center-body">
         <div className="faded-scroll" id="custom-fade-4"></div>
+        <a className="medium-link" href="https://tyler-j-funk.medium.com/">
+          <img className="medium-logo" src={mediumLogo} alt="medium logo"></img>
+          <h4 className="medium-name">@tyler-j-funk</h4>
+        </a>
+        <h4>Publications I Write For So Far</h4>
+        
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           rutrum, vulputate sapien vel, condimentum est. Vestibulum cursus diam
