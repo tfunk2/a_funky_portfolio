@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/NalaramaTab.css";
 const NalaramaTab = () => {
   return (
     <section className="center-section nalarama-section">
-      <h2 className="center-title">Nalarama</h2>
       <div className="center-body">
+        <h2 className="center-title">Nalarama</h2>
         <div className="faded-scroll" id="custom-fade-6"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor

@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/GitHubTab.css";
 const GitHubTab = () => {
   return (
     <section className="center-section github-section">
-      <h2 className="center-title">GitHub</h2>
       <div className="center-body">
+        <h2 className="center-title">GitHub</h2>
         <div className="faded-scroll" id="custom-fade-8"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor

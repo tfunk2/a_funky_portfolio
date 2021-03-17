@@ -5,8 +5,8 @@ import portfolioPicture from "../../images/portfolio-picture.png";
 const AboutMeTab = () => {
   return (
     <section className="center-section about-me-section">
-      <h2 className="center-title">About Me</h2>
       <div className="center-body">
+        <h2 className="center-title">About Me</h2>
         <div className="faded-scroll" id="custom-fade-1"></div>
         <img
           className="portfolio-picture"

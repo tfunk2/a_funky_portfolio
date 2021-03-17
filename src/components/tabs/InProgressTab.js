@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/InProgressTab.css";
 const InProgressTab = () => {
   return (
     <section className="center-section in-progress-section">
-      <h2 className="center-title">Projects In Progress</h2>
       <div className="center-body">
+        <h2 className="center-title">Projects In Progress</h2>
         <div className="faded-scroll" id="custom-fade-10"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor

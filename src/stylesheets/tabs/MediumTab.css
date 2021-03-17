@@ -1,33 +1,82 @@
 #custom-fade-4 {
-    background: linear-gradient(
-      to bottom,
-      rgba(27, 153, 139, 1) 0%,
-      rgba(27, 153, 139, 0) 100%
-    );
-  }
-  
-  #custom-fade-4-bottom {
-    background: linear-gradient(
-      to top,
-      rgba(27, 153, 139, 1) 0%,
-      rgba(27, 153, 139, 0) 100%
-    );
-  }
-  
-  .medium-section {
-    color: white;
-  }
+  background: linear-gradient(
+    to bottom,
+    rgba(27, 153, 139, 1) 0%,
+    rgba(27, 153, 139, 0) 100%
+  );
+}
 
-  .medium-logo {
-    width: 100px;
-  }
+#custom-fade-4-bottom {
+  background: linear-gradient(
+    to top,
+    rgba(27, 153, 139, 1) 0%,
+    rgba(27, 153, 139, 0) 100%
+  );
+}
 
-  .medium-name {
-    margin: 0px;
-  }
+.medium-section {
+  color: white;
+}
 
-  .medium-link {
-    margin-top: 30px;
-    width: fit-content;
-  }
-  
+.medium-logo {
+  width: 100px;
+}
+
+.medium-name {
+  margin: 0px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.medium-link {
+  margin-top: 30px;
+  width: fit-content;
+  padding: 10px;
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medium-link:hover {
+  background: linear-gradient(
+    to top,
+    rgb(201, 201, 201) 0%,
+    rgba(201, 201, 201, 0) 100%
+  );
+}
+
+.publications-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.publication-link {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publication-link:hover {
+  background: linear-gradient(
+    to top,
+    rgb(201, 201, 201) 0%,
+    rgba(201, 201, 201, 0) 100%
+  );
+}
+
+.publication-name {
+  margin: 0px;
+  margin-top: 3px;
+  width: 100px;
+  text-align: center;
+}
+
+.JSIPE-logo,
+.dev-genius-logo,
+.level-up-coding-logo,
+.the-startup-logo {
+  width:  100px;
+}

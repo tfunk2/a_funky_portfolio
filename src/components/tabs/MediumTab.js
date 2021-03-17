@@ -1,19 +1,68 @@
 import React from "react";
 import "../../stylesheets/tabs/MediumTab.css";
 import mediumLogo from "../../images/medium-logo.jpeg";
+import JSIPELogo from "../../images/JS-in-plain-english-logo-2.png";
+import devGeniusLogo from "../../images/dev-genius-logo.png";
+import levelUpCodingLogo from "../../images/gitconnected-logo.png";
+import theStartupLogo from "../../images/the-startup-logo.jpeg";
 
 const MediumTab = () => {
   return (
     <section className="center-section medium-section">
-      <h2 className="center-title">Medium</h2>
       <div className="center-body">
+        <h2 className="center-title">Medium</h2>
         <div className="faded-scroll" id="custom-fade-4"></div>
         <a className="medium-link" href="https://tyler-j-funk.medium.com/">
           <img className="medium-logo" src={mediumLogo} alt="medium logo"></img>
           <h4 className="medium-name">@tyler-j-funk</h4>
         </a>
-        <h4>Publications I Write For So Far</h4>
-        
+        <h3>Publications I Write For</h3>
+        <div className="publications-div">
+          {/* JavaScript in Plain English */}
+          <a
+            className="publication-link"
+            href="https://javascript.plainenglish.io/"
+          >
+            <img
+              className="JSIPE-logo"
+              src={JSIPELogo}
+              alt="JavaScript In Plain English logo"
+            ></img>
+            <h5 className="publication-name">JavaScript In Plain English</h5>
+          </a>
+          {/* Dev Genius */}
+          <a className="publication-link" href="https://medium.com/dev-genius">
+            <img
+              className="dev-genius-logo"
+              src={devGeniusLogo}
+              alt="Dev Genius logo"
+            ></img>
+            <h5 className="publication-name">Dev Genius</h5>
+          </a>
+          {/* Level Up Coding by gitconnected */}
+          <a
+            className="publication-link"
+            href="https://levelup.gitconnected.com/"
+          >
+            <img
+              className="level-up-coding-logo"
+              src={levelUpCodingLogo}
+              alt="Level Up Coding by gitconnected logo"
+            ></img>
+            <h5 className="publication-name">
+              Level Up Coding by gitconnected
+            </h5>
+          </a>
+          {/* The Startup */}
+          <a className="publication-link" href="https://medium.com/swlh">
+            <img
+              className="the-startup-logo"
+              src={theStartupLogo}
+              alt="The Startup logo"
+            ></img>
+            <h5 className="publication-name">The Startup</h5>
+          </a>
+        </div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
           rutrum, vulputate sapien vel, condimentum est. Vestibulum cursus diam

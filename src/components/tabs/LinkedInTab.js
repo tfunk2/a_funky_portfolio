@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/LinkedInTab.css";
 const LinkedInTab = () => {
   return (
     <section className="center-section linked-in-section">
-      <h2 className="center-title">LinkedIn</h2>
       <div className="center-body">
+        <h2 className="center-title">LinkedIn</h2>
         <div className="faded-scroll" id="custom-fade-5"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
