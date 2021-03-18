@@ -2,7 +2,6 @@ import React from "react";
 import "../stylesheets/CenterContent.css";
 
 const CenterContent = ({ tabSwitch, activeTab }) => {
-
   const whichBacksplash = () => {
     switch (activeTab) {
       case "About Me":
@@ -27,13 +26,20 @@ const CenterContent = ({ tabSwitch, activeTab }) => {
         return "home";
         break;
     }
-  }
-  
+  };
 
-  return <div className="center-content-div">
-    <div className={activeTab !== 'Home' ? "backsplash-shape" + " " + whichBacksplash() : null}></div>
-    {tabSwitch()}
-  </div>;
+  return (
+    <div className="center-content-div">
+      <div
+        className={
+          activeTab !== "Home"
+            ? "backsplash-shape" + " " + whichBacksplash()
+            : null
+        }
+      ></div>
+      {tabSwitch()}
+    </div>
+  );
 };
 
 export default CenterContent;
