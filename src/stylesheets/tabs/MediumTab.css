@@ -50,6 +50,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .publication-link {
@@ -81,4 +82,8 @@
 .level-up-coding-logo,
 .the-startup-logo {
   width:  100px;
+}
+
+#medium-p {
+  margin-bottom: 0px;
 }
