@@ -17,3 +17,21 @@
 .linked-in-section {
   color: white;
 }
+
+.linkedin-thumbnail {
+  width: 100%;
+  border: 4px rgb(175, 175, 175) solid;
+  border-radius: 4px;
+}
+
+.linkedin-thumbnail:hover {
+  border: 4px rgb(150, 150, 150) solid;
+}
+
+.linkedin-thumbnail-a {
+  align-self: center;
+  margin-top: 26px;
+  cursor: pointer;
+  min-width: 200px;
+  width: 80%;
+}
