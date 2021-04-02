@@ -20,13 +20,14 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 300px;
 }
 
 .center-title {
-  align-self: flex-start;
+  position: fixed;
   margin-bottom: 0px;
-  margin-top: 0px;
-  line-height: 0;
+  margin-top: -16px;
+  /* line-height: 0; */
   z-index: 1001;
 }
 
@@ -84,3 +85,9 @@ html {
     transform: scale(1);
   }
 }
+
+/* @media only screen and (min-width: 300px) {
+  .App {
+    min-width: 300px;
+  }
+} */

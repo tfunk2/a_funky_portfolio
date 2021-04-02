@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/KatesKitchenTab.css";
 const KatesKitchenTab = () => {
   return (
     <section className="center-section kates-kitchen-section">
-      <h2 className="center-title">The Real Kate's Kitchen</h2>
       <div className="center-body">
+        <h2 className="center-title">The Real Kate's Kitchen</h2>
         <div className="faded-scroll" id="custom-fade-9"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor

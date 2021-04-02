@@ -24,7 +24,7 @@
 .rectangle-tab {
   background-color: black;
   width: 20px;
-  margin: 0px 5px;
+  margin: 0px 3px;
   border-radius: 0px 0px 10px 10px;
   box-sizing: content-box;
   /* border-top: black 50px solid; */
@@ -32,6 +32,17 @@
   justify-content: center;
   align-items: flex-end;
   color: rgba(0, 0, 0, 0);
+  border: 3pt white solid;
+  border-top: none;
+  border-radius: 0px 0px 30px 30px;
+  /* Prevents text from being highlighted in tab */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .rectangle-tab:hover {
@@ -42,13 +53,6 @@
   height: 100%;
   animation: colorChangeBack1 300ms 1 forwards, contract 300ms 1 forwards;
 }
-
-/* #tab-1:hover > span {
-  background-color: #663f56;
-  border-radius: 8px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-} */
 
 #tab-1:hover {
   animation: hoverColorChange1 300ms 1 forwards, expand 300ms 1 forwards;
@@ -97,9 +101,6 @@
 
 .active-tab-top {
   color: white;
-  border: 3pt white solid;
-  border-top: none;
-  border-radius: 0px 0px 30px 30px;
 }
 
 @keyframes hoverColorChange1 {

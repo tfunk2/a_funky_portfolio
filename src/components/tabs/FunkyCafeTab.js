@@ -4,8 +4,8 @@ import "../../stylesheets/tabs/FunkyCafeTab.css";
 const FunkyCafeTab = () => {
   return (
     <section className="center-section funky-cafe-section">
-      <h2 className="center-title">Funky Cafe</h2>
       <div className="center-body">
+        <h2 className="center-title">Funky Cafe</h2>
         <div className="faded-scroll" id="custom-fade-7"></div>
         <p className="center-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a dolor
