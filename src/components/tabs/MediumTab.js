@@ -14,6 +14,7 @@ const MediumTab = () => {
         <div className="faded-scroll" id="custom-fade-4"></div>
         <a
           target="_blank"
+          rel="noreferrer"
           className="medium-link"
           href="https://tyler-j-funk.medium.com/"
         >
@@ -33,6 +34,7 @@ const MediumTab = () => {
           {/* JavaScript in Plain English */}
           <a
             target="_blank"
+            rel="noreferrer"
             className="publication-link"
             href="https://javascript.plainenglish.io/"
           >
@@ -46,6 +48,7 @@ const MediumTab = () => {
           {/* Dev Genius */}
           <a
             target="_blank"
+            rel="noreferrer"
             className="publication-link"
             href="https://medium.com/dev-genius"
           >
@@ -59,6 +62,7 @@ const MediumTab = () => {
           {/* Level Up Coding by gitconnected */}
           <a
             target="_blank"
+            rel="noreferrer"
             className="publication-link"
             href="https://levelup.gitconnected.com/"
           >
@@ -74,6 +78,7 @@ const MediumTab = () => {
           {/* The Startup */}
           <a
             target="_blank"
+            rel="noreferrer"
             className="publication-link"
             href="https://medium.com/swlh"
           >

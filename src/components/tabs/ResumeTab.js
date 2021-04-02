@@ -11,6 +11,7 @@ const ResumeTab = () => {
         <a
           className="resume-anchor"
           target="_blank"
+          rel="noreferrer"
           href="https://docs.google.com/document/d/1dzLhAcSr4gdY-tpFzWkL_FVkB2ba-GfEoypfOeEn14A/edit"
         >
           <img

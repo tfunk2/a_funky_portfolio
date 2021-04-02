@@ -54,13 +54,6 @@
   animation: colorChangeBack1 300ms 1 forwards, contract 300ms 1 forwards;
 }
 
-/* #tab-1:hover > span {
-  background-color: #663f56;
-  border-radius: 8px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-} */
-
 #tab-1:hover {
   animation: hoverColorChange1 300ms 1 forwards, expand 300ms 1 forwards;
   color: white;
