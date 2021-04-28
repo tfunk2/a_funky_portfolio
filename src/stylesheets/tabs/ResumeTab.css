@@ -38,10 +38,10 @@
 }
 
 .resume-anchor {
-  width: clamp(150px, 80%, 400px);
+  width: clamp(10px, 80%, 400px);
   align-self: center;
   display: flex;
-  height: auto;
+  height: fit-content;
   position: relative;
 }
 

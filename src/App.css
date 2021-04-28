@@ -42,13 +42,14 @@ html {
   display: flex;
   flex-direction: column;
   width: 96%;
+  border-radius: 0px 100px 100px 0px;
 }
 
 .center-p {
   margin-bottom: 25px;
   width: clamp(200px, 80%, 500px);
   align-self: center;
-  padding-left: 2px;
+  padding-left: clamp(2px, 12px, 18px);
 }
 
 .faded-scroll {
@@ -104,6 +105,9 @@ html {
   margin-top: 26px;
   cursor: pointer;
   width: clamp(150px, 80%, 350px);
+  height: fit-content;
+  display: flex;
+  position: relative;
 }
 
 @keyframes expand {

@@ -15,6 +15,7 @@ const FunkyCafeTab = () => {
           className="thumbnail-a"
         >
           <img src={funkyCafeThumbnail} className="thumbnail"></img>
+          <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">
           This is a project I built for my wife and I to select our meals and

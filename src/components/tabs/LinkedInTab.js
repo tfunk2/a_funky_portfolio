@@ -15,6 +15,7 @@ const LinkedInTab = () => {
           className="thumbnail-a"
         >
           <img src={linkedInThumbnail} className="thumbnail"></img>
+          <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">
           Check out my LinkedIn profile, feel free to reach out and connect!
