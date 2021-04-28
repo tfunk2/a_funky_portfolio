@@ -40,14 +40,11 @@
 }
 
 .resume-anchor {
-  min-width: 200px;
-  width: 55%;
+  width: clamp(150px, 80%, 400px);
   align-self: center;
   display: flex;
-  /* box-shadow: inset 2px 2px black; */
   height: auto;
   position: relative;
-  /* justify-self: center; */
 }
 
 .faded-anchor-bottom {

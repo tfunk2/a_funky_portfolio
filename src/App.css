@@ -29,6 +29,7 @@ html {
   margin-top: -16px;
   /* line-height: 0; */
   z-index: 1001;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .center-body {
@@ -36,16 +37,19 @@ html {
   height: 100%;
   position: relative;
   /* border-radius: 8px; */
-  padding-right: 12px;
+  /* padding-right: 12px; */
   cursor: default;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  /* width: 96%; */
+  width: 96%;
 }
 
 .center-p {
   margin-bottom: 25px;
+  width: clamp(200px, 80%, 500px);
+  align-self: center;
+  padding-left: 2px;
 }
 
 .faded-scroll {
