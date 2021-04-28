@@ -18,7 +18,6 @@ html {
   height: 75%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   min-width: 300px;
 }
@@ -54,21 +53,38 @@ html {
 
 .faded-scroll {
   height: 40px;
-  width: 50%;
+  width: clamp(255px, 50%, 50%);
   position: fixed;
-  /* border-radius: 8px 8px 0px 0px; */
+  border-radius: 0px 80px 0px 0px;
   pointer-events: none;
   z-index: 1000;
+  align-self: center;
+  transform: translateY(-2px);
 }
 
 .faded-scroll-bottom {
   height: 40px;
-  width: 50%;
+  width: clamp(255px, 55%, 55%);
   position: absolute;
   bottom: 12%;
-  left: 25%;
-  right: 25%;
-  /* border-radius: 0px 0px 8px 8px; */
+  /* left: 25%; */
+  /* right: 25%; */
+  border-radius: 0px 0px 80px 0px;
+  pointer-events: none;
+  /* align-self: center; */
+}
+
+.faded-anchor-bottom {
+  height: 50px;
+  width: 100%;
+  min-width: 200px;
+  background: linear-gradient(
+    to top,
+    rgb(175, 175, 175) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  bottom: 4px;
   pointer-events: none;
 }
 
