@@ -18,47 +18,31 @@
   color: white;
 } */
 
-.resume-thumbnail {
+/* .resume-thumbnail {
   min-width: 200px;
   width: 100%;
-  /* max-width: 1400px; */
-  /* margin-top: 30px; */
-  border: 4px rgb(175, 175, 175) solid;
+  border: 8px rgb(175, 175, 175) solid;
   border-radius: 4px;
-}
+} */
 
-.resume-thumbnail:hover {
-  border: 4px rgb(150, 150, 150) solid;
-}
+/* .resume-thumbnail:hover {
+  border: 8px rgb(150, 150, 150) solid;
+} */
 
-.resume-thumbnail:hover ~ .faded-anchor-bottom {
-  background: linear-gradient(
-    to top,
-    rgb(150, 150, 150) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.resume-anchor {
-  width: clamp(150px, 80%, 400px);
-  align-self: center;
-  display: flex;
-  height: auto;
-  position: relative;
-}
-
-.faded-anchor-bottom {
-  height: 50px;
-  width: 100%;
-  min-width: 200px;
+.thumbnail:hover ~ .faded-anchor-bottom {
   background: linear-gradient(
     to top,
     rgb(175, 175, 175) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  position: absolute;
-  bottom: 4px;
-  pointer-events: none;
+}
+
+.resume-anchor {
+  width: clamp(10px, 80%, 400px);
+  align-self: center;
+  display: flex;
+  height: fit-content;
+  position: relative;
 }
 
 #resume-center-body {

@@ -12,9 +12,10 @@ const LinkedInTab = () => {
           href="https://www.linkedin.com/in/tylerfunk/"
           rel="noreferrer"
           target="_blank"
-          className="linkedin-thumbnail-a"
+          className="thumbnail-a"
         >
-          <img src={linkedInThumbnail} className="linkedin-thumbnail"></img>
+          <img src={linkedInThumbnail} className="thumbnail"></img>
+          <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">
           Check out my LinkedIn profile, feel free to reach out and connect!

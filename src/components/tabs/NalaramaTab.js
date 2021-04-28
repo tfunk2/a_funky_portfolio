@@ -12,9 +12,10 @@ const NalaramaTab = () => {
           href="https://nalarama.web.app/"
           rel="noreferrer"
           target="_blank"
-          className="nalarama-thumbnail-a"
+          className="thumbnail-a"
         >
-          <img src={nalaramaThumbnail} className="nalarama-thumbnail"></img>
+          <img src={nalaramaThumbnail} className="thumbnail"></img>
+          <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">
           Check out this project/contest I created for friends and family to
