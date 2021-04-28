@@ -18,23 +18,21 @@
   color: white;
 } */
 
-.resume-thumbnail {
+/* .resume-thumbnail {
   min-width: 200px;
   width: 100%;
-  /* max-width: 1400px; */
-  /* margin-top: 30px; */
   border: 8px rgb(175, 175, 175) solid;
   border-radius: 4px;
-}
+} */
 
-.resume-thumbnail:hover {
+/* .resume-thumbnail:hover {
   border: 8px rgb(150, 150, 150) solid;
-}
+} */
 
-.resume-thumbnail:hover ~ .faded-anchor-bottom {
+.thumbnail:hover ~ .faded-anchor-bottom {
   background: linear-gradient(
     to top,
-    rgb(150, 150, 150) 0%,
+    rgb(175, 175, 175) 0%,
     rgba(255, 255, 255, 0) 100%
   );
 }
