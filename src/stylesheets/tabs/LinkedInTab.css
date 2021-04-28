@@ -20,18 +20,20 @@
 
 .linkedin-thumbnail {
   width: 100%;
-  border: 4px rgb(175, 175, 175) solid;
+  max-width: 500px;
   border-radius: 4px;
+  border: 8px rgb(150, 150, 150) solid;
+  transform: translateX(-8px);
 }
 
 .linkedin-thumbnail:hover {
-  border: 4px rgb(150, 150, 150) solid;
+  border: 8px rgb(175, 175, 175) solid;
 }
 
 .linkedin-thumbnail-a {
   align-self: center;
   margin-top: 26px;
   cursor: pointer;
-  min-width: 200px;
-  width: 80%;
+  /* min-width: 200px; */
+  width: clamp(150px, 80%, 350px);
 }

@@ -9,11 +9,12 @@
 }
 
 .top-tab-name {
-  font-size: 12px;
+  font-size: 13px;
   writing-mode: vertical-lr;
   /* font-family: 'Jaldi', sans-serif; */
-  font-weight: 500;
-  font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  /* font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif; */
+  font-family: 'Quicksand', sans-serif;
   /* line-height: 50%; */
   margin-bottom: 7px;
   margin-left: 3px;

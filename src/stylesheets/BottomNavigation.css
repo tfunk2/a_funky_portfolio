@@ -10,11 +10,13 @@
 }
 
 .bottom-tab-name {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 900;
   writing-mode: vertical-lr;
   /* font-family: 'Jaldi', sans-serif; */
-  font-weight: 500;
-  font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  /* font-family: "Abril Fatface", Georgia, "Times New Roman", Times, serif; */
+  font-family: 'Quicksand', sans-serif;
   transform: rotate(180deg);
   padding-bottom: 7px;
   /* margin-right: 3px; */
