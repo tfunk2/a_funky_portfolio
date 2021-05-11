@@ -104,7 +104,7 @@ html {
   align-self: center;
   margin-top: 26px;
   cursor: pointer;
-  width: clamp(150px, 80%, 350px);
+  width: clamp(150px, 80%, 400px);
   height: fit-content;
   display: flex;
   position: relative;

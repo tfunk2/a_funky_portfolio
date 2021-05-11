@@ -13,7 +13,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         }
         id="tab-6"
       >
-        <span className="bottom-tab-name">Nalarama</span>
+        <span className="bottom-tab-name" id="nalarama-span">Nalarama</span>
       </section>
       <section
         onClick={() => handleClick("Funky Cafe")}
@@ -24,7 +24,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         }
         id="tab-7"
       >
-        <span className="bottom-tab-name">Funky Cafe</span>
+        <span className="bottom-tab-name" id="funky-cafe-span">Funky Cafe</span>
       </section>
       <section
         onClick={() => handleClick("GitHub")}
@@ -46,7 +46,7 @@ export default function BottomNavigation({ activeTab, handleClick }) {
         }
         id="tab-9"
       >
-        <span className="bottom-tab-name">The Real Kate's Kitchen</span>
+        <span className="bottom-tab-name" id="trkk">The Real Kate's Kitchen</span>
       </section>
       <section
         onClick={() => handleClick("In Progress")}

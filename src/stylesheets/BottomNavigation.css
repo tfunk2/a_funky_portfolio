@@ -61,6 +61,10 @@
   animation: hoverColorChange6 300ms 1 forwards, expand 300ms 1 forwards;
 }
 
+#nalarama-span {
+  font-size: clamp(8px, 8px, 13px);
+}
+
 #tab-7 {
   height: 70%;
   animation: colorChangeBack7 300ms 1 forwards, contract 300ms 1 forwards;
@@ -69,6 +73,10 @@
 #tab-7:hover {
   color: white;
   animation: hoverColorChange7 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#funky-cafe-span {
+  font-size: clamp(10px, 10px, 13px)
 }
 
 #tab-8 {
@@ -89,6 +97,10 @@
 #tab-9:hover {
   color: white;
   animation: hoverColorChange9 300ms 1 forwards, expand 300ms 1 forwards;
+}
+
+#trkk {
+  font-size: clamp(6px, 8px, 13px)
 }
 
 #tab-10 {
