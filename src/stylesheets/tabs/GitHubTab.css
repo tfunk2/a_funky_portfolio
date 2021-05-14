@@ -14,6 +14,11 @@
   );
 }
 
-/* .github-section {
-  color: white;
-} */
+.github-icon {
+    width: clamp(150px, 50%, 400px);
+}
+
+#github-thumbnail-a {
+  justify-content: center;
+  width: fit-content;
+}
