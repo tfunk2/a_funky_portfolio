@@ -12,7 +12,7 @@ const GitHubTab = () => {
           href="https://github.com/tfunk2"
           rel="noreferrer"
           target="_blank"
-          className="thumbnail-a"
+          // className="thumbnail-a"
           id="github-thumbnail-a"
         >
           <img src={githubIcon} className="github-icon"></img>

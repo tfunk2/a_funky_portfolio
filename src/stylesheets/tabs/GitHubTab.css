@@ -15,10 +15,18 @@
 }
 
 .github-icon {
-    width: clamp(150px, 50%, 400px);
+  min-width: 150px;
+  width: 50%;
+  max-width: 400px;
 }
 
 #github-thumbnail-a {
   justify-content: center;
-  width: fit-content;
+  align-self: center;
+  margin-top: 26px;
+  cursor: pointer;
+  max-width: 200px;
+  display: flex;
+  /* border: 8px rgb(150, 150, 150) solid; */
+  border-radius: 4px;
 }

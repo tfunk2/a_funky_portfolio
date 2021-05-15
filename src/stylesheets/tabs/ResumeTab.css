@@ -29,7 +29,7 @@
   border: 8px rgb(150, 150, 150) solid;
 } */
 
-.thumbnail:hover ~ .faded-anchor-bottom {
+.thumbnail-a:hover ~ .faded-anchor-bottom {
   background: linear-gradient(
     to top,
     rgb(175, 175, 175) 0%,

@@ -85,29 +85,40 @@ html {
     rgba(255, 255, 255, 0) 100%
   );
   position: absolute;
-  bottom: 4px;
+  bottom: 0px;
   pointer-events: none;
 }
 
 .thumbnail {
   width: 100%;
-  border-radius: 4px;
-  border: 8px rgb(150, 150, 150) solid;
+  height: auto;
+  /* border-radius: 4px; */
+  margin-left: 8px;
   transform: translateX(-8px);
 }
 
-.thumbnail:hover {
+.thumbnail-a:hover {
   border: 8px rgb(175, 175, 175) solid;
+}
+
+.thumbnail-a:hover > .faded-anchor-bottom {
+  background: linear-gradient(
+    to top,
+    rgb(175, 175, 175) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .thumbnail-a {
   align-self: center;
   margin-top: 26px;
   cursor: pointer;
-  width: clamp(150px, 80%, 400px);
+  max-width: 200px;
   height: fit-content;
   display: flex;
   position: relative;
+  border: 8px rgb(150, 150, 150) solid;
+  border-radius: 4px;
 }
 
 @keyframes expand {
