@@ -1,4 +1,3 @@
-import React from "react";
 import "../../stylesheets/tabs/LinkedInTab.css";
 import linkedInThumbnail from "../../images/linked-in-thumbnail.png";
 
@@ -14,7 +13,7 @@ const LinkedInTab = () => {
           target="_blank"
           className="thumbnail-a"
         >
-          <img src={linkedInThumbnail} className="thumbnail"></img>
+          <img src={linkedInThumbnail} className="thumbnail" alt="" />
           <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">

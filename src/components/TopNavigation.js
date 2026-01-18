@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../stylesheets/TopNavigation.css";
 
 export default function TopNavigation({ activeTab, handleClick }) {
   return (
-    <div class="top-nav-div">
+    <div className="top-nav-div">
       <section
         onClick={() => handleClick("About Me")}
         className={

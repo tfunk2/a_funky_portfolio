@@ -1,4 +1,3 @@
-import React from "react";
 import "../../stylesheets/tabs/FunkyCafeTab.css";
 import funkyCafeThumbnail from '../../images/funky-cafe-thumbnail.png';
 
@@ -14,7 +13,7 @@ const FunkyCafeTab = () => {
           target="_blank"
           className="thumbnail-a"
         >
-          <img src={funkyCafeThumbnail} className="thumbnail"></img>
+          <img src={funkyCafeThumbnail} className="thumbnail" alt="" />
           <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">

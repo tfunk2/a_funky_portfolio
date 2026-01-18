@@ -1,4 +1,3 @@
-import React from "react";
 import "../../stylesheets/tabs/NalaramaTab.css";
 import nalaramaThumbnail from '../../images/nalarama-thumbnail.png';
 
@@ -14,7 +13,7 @@ const NalaramaTab = () => {
           target="_blank"
           className="thumbnail-a"
         >
-          <img src={nalaramaThumbnail} className="thumbnail"></img>
+          <img src={nalaramaThumbnail} className="thumbnail" alt="" />
           <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">

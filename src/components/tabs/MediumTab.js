@@ -1,4 +1,3 @@
-import React from "react";
 import "../../stylesheets/tabs/MediumTab.css";
 import mediumLogo from "../../images/medium-logo.jpeg";
 import JSIPELogo from "../../images/JS-in-plain-english-logo-2.png";
@@ -18,7 +17,7 @@ const MediumTab = () => {
           className="medium-link"
           href="https://tyler-j-funk.medium.com/"
         >
-          <img className="medium-logo" src={mediumLogo} alt="medium logo"></img>
+          <img className="medium-logo" src={mediumLogo} alt="medium logo" />
           <h4 className="medium-name">@tyler-j-funk</h4>
         </a>
         <p className="center-p" id="medium-p">
@@ -42,7 +41,7 @@ const MediumTab = () => {
               className="JSIPE-logo"
               src={JSIPELogo}
               alt="JavaScript In Plain English logo"
-            ></img>
+            />
             <h5 className="publication-name">JavaScript In Plain English</h5>
           </a>
           {/* Dev Genius */}
@@ -56,7 +55,7 @@ const MediumTab = () => {
               className="dev-genius-logo"
               src={devGeniusLogo}
               alt="Dev Genius logo"
-            ></img>
+            />
             <h5 className="publication-name">Dev Genius</h5>
           </a>
           {/* Level Up Coding by gitconnected */}
@@ -70,7 +69,7 @@ const MediumTab = () => {
               className="level-up-coding-logo"
               src={levelUpCodingLogo}
               alt="Level Up Coding by gitconnected logo"
-            ></img>
+            />
             <h5 className="publication-name">
               Level Up Coding by gitconnected
             </h5>
@@ -86,7 +85,7 @@ const MediumTab = () => {
               className="the-startup-logo"
               src={theStartupLogo}
               alt="The Startup logo"
-            ></img>
+            />
             <h5 className="publication-name">The Startup</h5>
           </a>
         </div>

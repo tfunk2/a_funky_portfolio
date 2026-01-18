@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../stylesheets/BottomNavigation.css";
 
 export default function BottomNavigation({ activeTab, handleClick }) {
   return (
-    <div class="bottom-nav-div">
+    <div className="bottom-nav-div">
       <section
         onClick={() => handleClick("Nalarama")}
         className={

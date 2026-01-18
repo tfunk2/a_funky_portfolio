@@ -1,4 +1,3 @@
-import React from "react";
 import resumeThumbnail from "../../images/resume-thumbnail.png";
 import "../../stylesheets/tabs/ResumeTab.css";
 
@@ -18,7 +17,7 @@ const ResumeTab = () => {
             className="thumbnail"
             src={resumeThumbnail}
             alt="resume thumbnail"
-          ></img>
+          />
           <div className="faded-anchor-bottom"></div>
         </a>
       </div>

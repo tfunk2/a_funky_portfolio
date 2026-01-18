@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import TopNavigation from "./components/TopNavigation.js";
-import BottomNavigation from "./components/BottomNavigation.js";
-import CenterContent from "./components/CenterContent.js";
-import AboutMeTab from "./components/tabs/AboutMeTab.js";
-import KatesKitchenTab from "./components/tabs/KatesKitchenTab.js";
-import FunkyCafeTab from "./components/tabs/FunkyCafeTab.js";
-import ResumeTab from "./components/tabs/ResumeTab.js";
-import MediumTab from "./components/tabs/MediumTab.js";
-import LinkedInTab from "./components/tabs/LinkedInTab.js";
-import NalaramaTab from "./components/tabs/NalaramaTab.js";
-import GitHubTab from "./components/tabs/GitHubTab.js";
-import InProgressTab from "./components/tabs/InProgressTab.js";
+import TopNavigation from "./components/TopNavigation";
+import BottomNavigation from "./components/BottomNavigation";
+import CenterContent from "./components/CenterContent";
+import AboutMeTab from "./components/tabs/AboutMeTab";
+import KatesKitchenTab from "./components/tabs/KatesKitchenTab";
+import FunkyCafeTab from "./components/tabs/FunkyCafeTab";
+import ResumeTab from "./components/tabs/ResumeTab";
+import MediumTab from "./components/tabs/MediumTab";
+import LinkedInTab from "./components/tabs/LinkedInTab";
+import NalaramaTab from "./components/tabs/NalaramaTab";
+import GitHubTab from "./components/tabs/GitHubTab";
+import InProgressTab from "./components/tabs/InProgressTab";
 
 function App() {
   const [activeTab, setActiveTab] = useState("Home");
@@ -40,7 +40,6 @@ function App() {
         return <KatesKitchenTab />;
       default:
         return home;
-        break;
     }
   };
 

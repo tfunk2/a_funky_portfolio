@@ -1,4 +1,3 @@
-import React from "react";
 import "../../stylesheets/tabs/KatesKitchenTab.css";
 import katesKitchenThumbnail from '../../images/the-real-kates-kitchen-thumbnail.png';
 
@@ -14,7 +13,7 @@ const KatesKitchenTab = () => {
           target="_blank"
           className="thumbnail-a"
         >
-          <img src={katesKitchenThumbnail} className="thumbnail"></img>
+          <img src={katesKitchenThumbnail} className="thumbnail" alt="" />
           <div className="faded-anchor-bottom"></div>
         </a>
         <p className="center-p">

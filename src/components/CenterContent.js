@@ -1,4 +1,3 @@
-import React from "react";
 import "../stylesheets/CenterContent.css";
 
 const CenterContent = ({ tabSwitch, activeTab }) => {
@@ -24,7 +23,6 @@ const CenterContent = ({ tabSwitch, activeTab }) => {
         return "the-real-kates-kitchen";
       default:
         return "home";
-        break;
     }
   };
 
@@ -33,7 +31,7 @@ const CenterContent = ({ tabSwitch, activeTab }) => {
       <div
         className={
           activeTab !== "Home"
-            ? "backsplash-shape" + " " + whichBacksplash()
+            ? `backsplash-shape ${whichBacksplash()}`
             : null
         }
       ></div>
