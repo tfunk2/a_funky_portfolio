@@ -52,7 +52,7 @@
 
 .hero-name {
     display: block;
-    background: linear-gradient(135deg, #fff 0%, #00FF85 100%);
+    background: linear-gradient(135deg, #dbffb4 0%, #00FF85 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

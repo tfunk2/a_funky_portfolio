@@ -13,11 +13,11 @@ const Hero = () => {
     <section id="hero" className="hero">
       <div className="hero-content">
         <h1 className="hero-title">
-          <span className="hero-name">Your Name</span>
-          <span className="hero-subtitle">Creative Title or Tagline</span>
+          <span className="hero-name">Tyler Funk</span>
+          <span className="hero-subtitle">Software Engineer</span>
         </h1>
         <p className="hero-description">
-          Short description about what you do, your specialty, or what makes you unique.
+          
         </p>
         <a href="#about" onClick={handleScrollClick} className="cta-button">
           Explore My Work

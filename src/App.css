@@ -79,11 +79,9 @@ html {
   height: 50px;
   width: 100%;
   min-width: 200px;
-  background: linear-gradient(
-    to top,
-    rgb(150, 150, 150) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(to top,
+      rgb(150, 150, 150) 0%,
+      rgba(255, 255, 255, 0) 100%);
   position: absolute;
   bottom: 4px;
   pointer-events: none;
@@ -114,6 +112,7 @@ html {
   0% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(1.5);
   }
@@ -123,6 +122,7 @@ html {
   0% {
     transform: scale(1.5);
   }
+
   100% {
     transform: scale(1);
   }

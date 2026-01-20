@@ -8,16 +8,17 @@ const Contact = () => {
         <div className="contact-content">
           <p className="contact-intro">
             I'm always interested in new opportunities and collaborations.
+            <br />
             Feel free to reach out!
           </p>
           <div className="contact-links">
-            <a href="mailto:your.email@example.com" className="contact-link">
+            <a href="mailto:tyler.j.funk2@gmail.com" className="contact-link">
               Email
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="contact-link">
+            <a href="https://www.linkedin.com/in/tylerfunk/" target="_blank" rel="noopener noreferrer" className="contact-link">
               LinkedIn
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-link">
+            <a href="https://github.com/tfunk2" target="_blank" rel="noopener noreferrer" className="contact-link">
               GitHub
             </a>
             <a href="#" className="contact-link">

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../stylesheets/Navbar.css";
-
+import logo from "../images/tf-icon-green.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="logo">Portfolio</div>
+        <div className="logo" onClick={(e) => handleNavClick(e, 'hero')}>
+          <img id="tf-logo" src={logo} alt="Tyler Funk Logo" />
+        </div>
         <button 
           className={`hamburger ${isMenuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
