@@ -33,6 +33,8 @@
   aspect-ratio: 16/9;
   overflow: hidden;
   background: #0a0a0a;
+  margin: 0;
+  padding: 0;
 }
 
 .project-image img {
@@ -40,6 +42,9 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .project-card:hover .project-image img {
@@ -111,26 +116,21 @@
     padding: 5rem 0;
   }
 
-  /* Scale down project images and all elements inside (including percentage containers, title words, etc.) */
   .project-image {
-    transform: scale(0.9);
-    transform-origin: center;
+    width: 100%;
   }
 
   .project-image img {
-    object-fit: cover; /* Keep cover for proper image display */
+    width: 100%;
+    object-fit: cover;
   }
 
-  /* Ensure hover effect still works with scaling */
   .project-card:hover .project-image img {
-    transform: scale(1.05); /* Reduced from 1.1 to account for base scale */
+    transform: scale(1.1);
   }
 
-  /* Scale down project title container and text */
   .project-title {
     font-size: 1.2rem;
-    transform: scale(0.95);
-    transform-origin: left;
   }
 
   .project-overlay {
@@ -143,18 +143,21 @@
 }
 
 @media (max-width: 480px) {
-  /* Further scale down on very small screens */
   .project-image {
-    transform: scale(0.8);
+    width: 100%;
+  }
+
+  .project-image img {
+    width: 100%;
+    object-fit: cover;
   }
 
   .project-card:hover .project-image img {
-    transform: scale(1.03); /* Further reduced for smaller screens */
+    transform: scale(1.1);
   }
 
   .project-title {
     font-size: 1rem;
-    transform: scale(0.9);
   }
 
   .project-overlay {
