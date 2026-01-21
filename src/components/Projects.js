@@ -12,6 +12,7 @@ const Projects = () => {
       description: 'An addictive word-guessing game designed for endless play. Built with Vue, TypeScript, and Firebase.',
       image: skwordleScreenshot, // Add image path here
       link: 'https://skwordle.web.app/', // Add project link here
+      favicon: '', // Add favicon path here
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ const Projects = () => {
       description: "A digitalized version of my Mom's recipe book. Built with React, JavaScript, and Firebase.",
       image: trkkScreenshot, // Add image path here
       link: 'https://therealkateskitchen.web.app/', // Add project link here
+      favicon: '', // Add favicon path here
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ const Projects = () => {
       description: 'A roulette display board with live statistics, like what you might see in a casino. Built with Vue, TypeScript, and Firebase.',
       image: rouletteTrackerScreenshot, // Add image path here
       link: 'https://roulettetracker.web.app/', // Add project link here
+      favicon: '', // Add favicon path here
     },
     {
       id: 4,
@@ -33,6 +36,7 @@ const Projects = () => {
       description: 'Brief description of your project and what it does.',
       image: '', // Add image path here
       link: '#', // Add project link here
+      favicon: '', // Add favicon path here
     },
     {
       id: 5,
@@ -40,6 +44,7 @@ const Projects = () => {
       description: 'Brief description of your project and what it does.',
       image: '', // Add image path here
       link: '#', // Add project link here
+      favicon: '', // Add favicon path here
     },
     {
       id: 6,
@@ -47,6 +52,7 @@ const Projects = () => {
       description: 'Brief description of your project and what it does.',
       image: '', // Add image path here
       link: '#', // Add project link here
+      favicon: '', // Add favicon path here
     },
   ];
 
@@ -68,7 +74,14 @@ const Projects = () => {
                   )}
                 </div>
                 <div className="project-overlay">
-                  <h3 className="project-title">{project.title}</h3>
+                  <div className="project-title-row">
+                    <h3 className="project-title">{project.title}</h3>
+                    {project.favicon ? (
+                      <img src={project.favicon} alt={`${project.title} favicon`} className="project-favicon" />
+                    ) : (
+                      <div className="project-favicon-placeholder"></div>
+                    )}
+                  </div>
                   <p className="project-description">{project.description}</p>
                 </div>
               </a>
