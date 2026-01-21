@@ -92,6 +92,15 @@
   margin: 0;
 }
 
+.scoreboard-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 999;
+  /* Add your width, background, and other styling here */
+}
+
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
@@ -100,5 +109,59 @@
 
   .projects-section {
     padding: 5rem 0;
+  }
+
+  /* Scale down project images and all elements inside (including percentage containers, title words, etc.) */
+  .project-image {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+
+  .project-image img {
+    object-fit: cover; /* Keep cover for proper image display */
+  }
+
+  /* Ensure hover effect still works with scaling */
+  .project-card:hover .project-image img {
+    transform: scale(1.05); /* Reduced from 1.1 to account for base scale */
+  }
+
+  /* Scale down project title container and text */
+  .project-title {
+    font-size: 1.2rem;
+    transform: scale(0.95);
+    transform-origin: left;
+  }
+
+  .project-overlay {
+    padding: 1.2rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further scale down on very small screens */
+  .project-image {
+    transform: scale(0.8);
+  }
+
+  .project-card:hover .project-image img {
+    transform: scale(1.03); /* Further reduced for smaller screens */
+  }
+
+  .project-title {
+    font-size: 1rem;
+    transform: scale(0.9);
+  }
+
+  .project-overlay {
+    padding: 1rem;
+  }
+
+  .project-description {
+    font-size: 0.8rem;
   }
 }
