@@ -1,7 +1,10 @@
 import "../stylesheets/Projects.css";
 import skwordleScreenshot from "../images/Skwordle-Screenshot.png";
+import skwordleIcon from "../images/Skwordle-Icon.png";
 import trkkScreenshot from "../images/TRKK-Screenshot.png";
+import trkkIcon from "../images/TRKK-Icon.png";
 import rouletteTrackerScreenshot from "../images/RouletteTrackerScreenshot.png";
+import rouletteTrackerIcon from "../images/RouletteTrackerIcon.png"; 
 
 const Projects = () => {
   // Placeholder project data - replace with your actual projects
@@ -12,7 +15,7 @@ const Projects = () => {
       description: 'An addictive word-guessing game designed for endless play. Built with Vue, TypeScript, and Firebase.',
       image: skwordleScreenshot, // Add image path here
       link: 'https://skwordle.web.app/', // Add project link here
-      favicon: '', // Add favicon path here
+      favicon: skwordleIcon, // Add favicon path here
     },
     {
       id: 2,
@@ -20,7 +23,7 @@ const Projects = () => {
       description: "A digitalized version of my Mom's recipe book. Built with React, JavaScript, and Firebase.",
       image: trkkScreenshot, // Add image path here
       link: 'https://therealkateskitchen.web.app/', // Add project link here
-      favicon: '', // Add favicon path here
+      favicon: trkkIcon, // Add favicon path here
     },
     {
       id: 3,
@@ -28,32 +31,32 @@ const Projects = () => {
       description: 'A roulette display board with live statistics, like what you might see in a casino. Built with Vue, TypeScript, and Firebase.',
       image: rouletteTrackerScreenshot, // Add image path here
       link: 'https://roulettetracker.web.app/', // Add project link here
-      favicon: '', // Add favicon path here
+      favicon: rouletteTrackerIcon, // Add favicon path here
     },
-    {
-      id: 4,
-      title: 'Project Four',
-      description: 'Brief description of your project and what it does.',
-      image: '', // Add image path here
-      link: '#', // Add project link here
-      favicon: '', // Add favicon path here
-    },
-    {
-      id: 5,
-      title: 'Project Five',
-      description: 'Brief description of your project and what it does.',
-      image: '', // Add image path here
-      link: '#', // Add project link here
-      favicon: '', // Add favicon path here
-    },
-    {
-      id: 6,
-      title: 'Project Six',
-      description: 'Brief description of your project and what it does.',
-      image: '', // Add image path here
-      link: '#', // Add project link here
-      favicon: '', // Add favicon path here
-    },
+    // {
+    //   id: 4,
+    //   title: 'Project Four',
+    //   description: 'Brief description of your project and what it does.',
+    //   image: '', // Add image path here
+    //   link: '#', // Add project link here
+    //   favicon: '', // Add favicon path here
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Project Five',
+    //   description: 'Brief description of your project and what it does.',
+    //   image: '', // Add image path here
+    //   link: '#', // Add project link here
+    //   favicon: '', // Add favicon path here
+    // },
+    // {
+    //   id: 6,
+    //   title: 'Project Six',
+    //   description: 'Brief description of your project and what it does.',
+    //   image: '', // Add image path here
+    //   link: '#', // Add project link here
+    //   favicon: '', // Add favicon path here
+    // },
   ];
 
   return (
