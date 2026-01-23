@@ -1,4 +1,5 @@
 import "../stylesheets/Contact.css";
+import resumePDF from "../assets/Tyler-Funk-SE-Resume-2026.pdf";
 
 const Contact = () => {
   return (
@@ -21,7 +22,7 @@ const Contact = () => {
             <a href="https://github.com/tfunk2" target="_blank" rel="noopener noreferrer" className="contact-link">
               GitHub
             </a>
-            <a href="#" className="contact-link">
+            <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="contact-link">
               Resume
             </a>
           </div>
